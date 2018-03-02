@@ -19,7 +19,7 @@ public class Amigo
 	{
 		return amigo.getNome();
 	}
-	public void printAmigos(ArrayList<Amigo> amigos)
+	public void printAmigos(ArrayList<String> amigos)
 	{
 		System.out.println("  Amigos");
 		for(Amigo i: amigos)

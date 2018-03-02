@@ -42,7 +42,7 @@ public class Main
 				break;
 			case 3:
 				novoUsuario.getMensagem(amigos);
-				mensagens.add(novoUsuario.getMensagem());
+				//mensagens.add(novoUsuario.getMensagem());
 				break;
 			case 4:
 				novoUsuario.getComunidade().criarComunidade(novoUsuario.getNome());
@@ -51,7 +51,7 @@ public class Main
 				novoUsuario.getComunidade().addMembros(novoUsuario);
 				break;
 			case 6:
-				novoUsuario.backup(amigos , contas, mensagens);
+				novoUsuario.backup(amigos , contas);
 			default:
 				System.out.println("Opcao invalida");
 		}

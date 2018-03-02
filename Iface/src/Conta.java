@@ -83,13 +83,12 @@ public class Conta
 	{
 		return this.comunidade;
 	}
-	public void backup(ArrayList<Amigo> amigos, ArrayList<Conta> contas,
-			ArrayList<Mensagem> mensagens)
+	public void backup(ArrayList<String> amigos, ArrayList<Conta> contas)
 	{
 		System.out.println("Nome: " + this.nome);
 		this.perfil.printPerfil();
 		this.comunidade.printComunidade();
 		this.perfil.getAmigo().printAmigos(amigos);
-		this.mensagem.printMensagem(mensagens);
+		//this.mensagem.printMensagem(mensagens);
 	}
 }
